@@ -1,0 +1,17 @@
+@import '_vars';
+@import '_reset';
+@import '_container';
+@import '_btn';
+@import '_after';
+
+.btn::after {
+    @extend %psevdo;
+}
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background: $color-bg;
+  }
+div {
+    display: flex;
+}
